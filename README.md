@@ -6,6 +6,7 @@
 
 ## Introduction
 **ChancellorsOfGermany** is an interactive infographic that visualizes the chancellors of germany with the help of a timeline. With the magnifying glass icons you can zoom in and out of the graphic and with the arrow icons you can move to the left and right to see different ranges of the timeline. When hovering over a chancellor you can see with which parties the chancellor has formed coalitions.
+You can try it out yourself [here](https://isabellwaas.github.io/ChancellorsOfGermany/).
 <br><br>
 The graphic was developed as part of the Infographic module in the fifth semester of my studies. It is written in HTML, CSS and JavaScript.
 <br><br>
