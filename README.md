@@ -42,5 +42,9 @@ For uniformity, all images are black and white. Moreover, the font I chose is [O
 I used the library [vis-timeline](https://github.com/visjs/vis-timeline) for this project.
 <br><br>
   
+## Licenses
+The library used in the project is licensed under [Apache 2.0](https://github.com/isabellwaas/ChancellorsOfGermany/blob/main/licence_Apache-2.0.txt).
+<br><br>
+  
 ## Get in contact
 Feel free to get in contact and share your experience with **ChancellorsOfGermany**. Bug reports are also very appreciated.
