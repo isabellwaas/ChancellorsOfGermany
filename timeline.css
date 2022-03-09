@@ -7,7 +7,7 @@ body, html, input
 @font-face
 {
     font-family: OPTIMill;
-    src: url(../resources/fonts/OPTIMill.otf);
+    src: url(resources/fonts/OPTIMill.otf);
 }
 
 h1

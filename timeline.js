@@ -3,15 +3,15 @@ let container = document.getElementById('timeline-container');
 
 //Create and add the elements
 let items = new vis.DataSet([
-    {id: 1, className: 'container black', content: createItemContent(1, 'Konrad Adenauer', '15 September 1949 -',' 16 October 1963', ['cdu', 'fdp', 'others'],'../resources/images/konrad_adenauer.jpg'), start: '1949-09-15', end: '1963-10-16'},
-    {id: 2, className: 'container black', content: createItemContent(2, 'Ludwig Erhard', '16 October 1963 -',' 01 December 1966', ['cdu', 'fdp'],'../resources/images/ludwig_erhard.jpg'), start: '1963-10-16', end: '1966-12-01'},
-    {id: 3, className: 'container black', content: createItemContent(3, 'Kurt Georg Kiesinger', '01 December 1966 -',' 21 October 1969',['cdu', 'spd'], '../resources/images/kurt_georg_kiesinger.jpg'), start: '1966-12-01', end: '1969-10-21'},
-    {id: 4, className: 'container red', content: createItemContent(4, 'Willy Brandt', '21 October 1969 -',' 07 May 1974', ['spd', 'fdp'],'../resources/images/willy_brandt.jpg'), start: '1969-10-21', end: '1974-05-07'},
-    {id: 5, className: 'container red', content: createItemContent(5, 'Helmut Schmidt', '16 May 1974 -', '01 October 1982', ['spd', 'fdp'],'../resources/images/helmut_schmidt.jpg'), start: '1974-05-16', end: '1982-10-01'},
-    {id: 6, className: 'container black', content: createItemContent(6, 'Helmut Kohl', '01 October 1982 -', '27 October 1998', ['cdu', 'fdp'],'../resources/images/helmut_kohl.jpg'), start: '1982-10-01', end: '1998-10-27'},
-    {id: 7, className: 'container red', content: createItemContent(7, 'Gerhard Schr\u00F6der', '27 October 1998 -','22 November 2005', ['spd', 'gruene'],'../resources/images/gerhard_schroeder.jpg'), start: '1998-10-27', end: '2005-11-22'},
-    {id: 8, className: 'container black', content: createItemContent(8, 'Angela Merkel', '22 November 2005 -','08 December 2021', ['cdu', 'spd', 'fdp'],'../resources/images/angela_merkel.jpg'), start: '2005-11-22', end: '2021-12-08'},
-    {id: 9, className: 'container red', content: createItemContent(9, 'Olaf Scholz', '08 December 2021 -','Today', ['spd', 'gruene', 'fdp'],'../resources/images/olaf_scholz.jpg'), start: '2021-12-08', end: '2025-12-08'}
+    {id: 1, className: 'container black', content: createItemContent(1, 'Konrad Adenauer', '15 September 1949 -',' 16 October 1963', ['cdu', 'fdp', 'others'],'resources/images/konrad_adenauer.jpg'), start: '1949-09-15', end: '1963-10-16'},
+    {id: 2, className: 'container black', content: createItemContent(2, 'Ludwig Erhard', '16 October 1963 -',' 01 December 1966', ['cdu', 'fdp'],'resources/images/ludwig_erhard.jpg'), start: '1963-10-16', end: '1966-12-01'},
+    {id: 3, className: 'container black', content: createItemContent(3, 'Kurt Georg Kiesinger', '01 December 1966 -',' 21 October 1969',['cdu', 'spd'], 'resources/images/kurt_georg_kiesinger.jpg'), start: '1966-12-01', end: '1969-10-21'},
+    {id: 4, className: 'container red', content: createItemContent(4, 'Willy Brandt', '21 October 1969 -',' 07 May 1974', ['spd', 'fdp'],'resources/images/willy_brandt.jpg'), start: '1969-10-21', end: '1974-05-07'},
+    {id: 5, className: 'container red', content: createItemContent(5, 'Helmut Schmidt', '16 May 1974 -', '01 October 1982', ['spd', 'fdp'],'resources/images/helmut_schmidt.jpg'), start: '1974-05-16', end: '1982-10-01'},
+    {id: 6, className: 'container black', content: createItemContent(6, 'Helmut Kohl', '01 October 1982 -', '27 October 1998', ['cdu', 'fdp'],'resources/images/helmut_kohl.jpg'), start: '1982-10-01', end: '1998-10-27'},
+    {id: 7, className: 'container red', content: createItemContent(7, 'Gerhard Schr\u00F6der', '27 October 1998 -','22 November 2005', ['spd', 'gruene'],'resources/images/gerhard_schroeder.jpg'), start: '1998-10-27', end: '2005-11-22'},
+    {id: 8, className: 'container black', content: createItemContent(8, 'Angela Merkel', '22 November 2005 -','08 December 2021', ['cdu', 'spd', 'fdp'],'resources/images/angela_merkel.jpg'), start: '2005-11-22', end: '2021-12-08'},
+    {id: 9, className: 'container red', content: createItemContent(9, 'Olaf Scholz', '08 December 2021 -','Today', ['spd', 'gruene', 'fdp'],'resources/images/olaf_scholz.jpg'), start: '2021-12-08', end: '2025-12-08'}
 ]);
 
 //Create some options for the timeline
@@ -117,11 +117,11 @@ function createPartyElement(party)
 
     switch(party)
     {
-        case 'cdu': partyElement.src="../resources/icons/cdu.png"; break;
-        case 'spd': partyElement.src="../resources/icons/spd.png"; break;
-        case 'fdp': partyElement.src="../resources/icons/fdp.png"; break;
-        case 'gruene': partyElement.src="../resources/icons/gruene.png"; break;
-        case 'others': partyElement.src="../resources/icons/others.png"; break;
+        case 'cdu': partyElement.src="resources/icons/cdu.png"; break;
+        case 'spd': partyElement.src="resources/icons/spd.png"; break;
+        case 'fdp': partyElement.src="resources/icons/fdp.png"; break;
+        case 'gruene': partyElement.src="resources/icons/gruene.png"; break;
+        case 'others': partyElement.src="resources/icons/others.png"; break;
     }
 
     return partyElement;
