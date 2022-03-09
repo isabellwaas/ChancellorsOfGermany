@@ -1,0 +1,138 @@
+body, html, input
+{
+    font-family: "Helvetica", sans-serif;
+    font-size: 12pt;
+}
+
+@font-face
+{
+    font-family: OPTIMill;
+    src: url(../resources/fonts/OPTIMill.otf);
+}
+
+h1
+{
+    font-family: "OPTIMill", serif;
+    font-size: 27pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.menu
+{
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+    z-index: 9999;
+}
+
+.buttonGroup
+{
+    display: inline;
+    padding: 5px;
+}
+
+.button
+{
+    border: none;
+    background: none;
+    padding-top: 10px
+}
+
+.vis-timeline
+{
+    border: none;
+    background-color: #ededed;
+    box-shadow: 0px 2px 10px #a6a6a6;
+}
+
+.vis-shadow
+{
+    display: none;
+}
+
+.vis-time-axis.vis-background
+{
+    display: none;
+}
+
+.vis-item.vis-box
+{
+    border-radius: 25px;
+}
+
+.name
+{
+    font-family: "OPTIMill", serif;
+    font-weight: bold;
+    font-size: 15pt;
+    margin: 0px;
+}
+
+.governorship
+{
+    font-weight: normal;
+    font-size: 11pt;
+    margin-top: -5px;
+}
+
+.beginningOfTerm
+{
+    margin-bottom: -5px;
+}
+
+.endOfTerm
+{
+    margin-bottom: -15px;
+}
+
+.party
+{
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-bottom: -15px;
+}
+
+.image
+{
+    padding: 10px;
+    height: 280px;
+    border-radius: 25px;
+}
+
+.container
+{
+    padding-top: 10px;
+    color: white;
+}
+
+.black, .vis-item.vis-selected.black
+{
+    background-color: #363636;
+    border-color: #363636;
+}
+
+.red, .vis-item.vis-selected.red
+{
+    background-color: #b64747;
+    border-color: #b64747;
+}
+
+.source
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: right;
+}
