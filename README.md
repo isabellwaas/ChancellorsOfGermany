@@ -16,7 +16,7 @@ The graphic was developed as part of the Infographic module in the fifth semeste
 <br><br>
 
 ## Testing
-The graphic should run on most browsers. However, I have only tested it on Chrome, Firefox and Safari so far.
+The graphic should run on most browsers. However, I have only tested it manually on Chrome, Firefox and Safari so far.
 <br><br>
 
 ## Data
@@ -40,6 +40,10 @@ For uniformity, all images are black and white. Moreover, the font I chose is [O
   
 ## Libraries
 I used the library [vis-timeline](https://github.com/visjs/vis-timeline) for this project.
+<br><br>
+  
+## Licenses
+The library used in the project is licensed under [Apache 2.0](https://github.com/isabellwaas/ChancellorsOfGermany/blob/main/licence_Apache-2.0.txt).
 <br><br>
   
 ## Get in contact
