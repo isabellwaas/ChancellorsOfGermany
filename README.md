@@ -16,7 +16,7 @@ The graphic was developed as part of the Infographic module in the fifth semeste
 <br><br>
 
 ## Testing
-The graphic should run on most browsers. However, I have only tested it on Chrome, Firefox and Safari so far.
+The graphic should run on most browsers. However, I have only tested it manually on Chrome, Firefox and Safari so far.
 <br><br>
 
 ## Data
