@@ -36,7 +36,7 @@ The images I used are the following:
   - [Angela Merkel](https://upload.wikimedia.org/wikipedia/commons/0/05/Angela_Merkel_Juli_2010_-_3zu4_%28cropped_2%29.jpg)
   - [Olaf Scholz](https://upload.wikimedia.org/wikipedia/commons/7/74/2021-07-06_Olaf_Scholz_SPD_8619.JPG)
 
-For uniformity, all images are black and white. Moreover, the font I chose is [OPTIMill](https://de.ffonts.net/OPTIMill.font).
+For uniformity, all images are black and white. Moreover, the font I chose is [OPTIMill](https://de.ffonts.net/OPTIMill.font). All icons were created with [Affinity Designer](https://affinity.serif.com/de/designer/) by me.
 <br><br>
   
 ## Libraries
